@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="save">Save</string>
+    <string name="permissionDenied">Permission Denied</string>
+    <string name="PleaseEnterTitle">Please Enter Title</string>
+    <string name="PleaseEnterDescription">Please Enter Description</string>
+</resources>

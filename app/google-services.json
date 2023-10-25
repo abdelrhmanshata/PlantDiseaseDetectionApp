@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "946141616035",
+    "project_id": "plant-disease-detection-e81ce",
+    "storage_bucket": "plant-disease-detection-e81ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946141616035:android:4b755eeef329ba3a20ec16",
+        "android_client_info": {
+          "package_name": "com.shata.plantdiseasedetectionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946141616035-3u33iajpff7pna5poc9h94eg2lbgvhk1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shata.plantdiseasedetectionapp",
+            "certificate_hash": "afccd31ec53c0f4b73f914e37446dca9b559742a"
+          }
+        },
+        {
+          "client_id": "946141616035-b5d9prfsdclk6dp70op646mvokhje7i9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALVWUcakl7jdaiLYWfhp9f91O1aWyXwMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946141616035-b5d9prfsdclk6dp70op646mvokhje7i9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

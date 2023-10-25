@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeActivity">
+
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:background="@drawable/bg_recommended"
+        android:elevation="20dp"
+        android:padding="@dimen/_5sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/user"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="start|center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/scanPlant"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/bg_recommended"
+            android:elevation="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/scanplant" />
+
+        <ImageView
+            android:id="@+id/treatment"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_recommended"
+            android:elevation="20dp"
+            android:padding="8dp"
+            android:src="@drawable/herbs" />
+
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_recommended"
+            android:elevation="20dp"
+            android:padding="8dp"
+            android:src="@drawable/sliderbanner" />
+
+        <ImageView
+            android:id="@+id/icon_4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_recommended"
+            android:elevation="20dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_icon_4"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/detail_plant_title"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginEnd="-50dp"
+        android:layout_marginBottom="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="0dp">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_home_detail_picture"
+                android:elevation="50dp" />
+        </androidx.cardview.widget.CardView>
+
+        <ProgressBar
+            android:id="@+id/progressBanner"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+
+    <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+        android:id="@+id/layout_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/detail_plant_title"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        app:dotsColor="@color/white"
+        app:dotsCornerRadius="8dp"
+        app:dotsSize="12dp"
+        app:dotsSpacing="4dp"
+        app:dotsStrokeColor="@color/light_gray2"
+        app:dotsStrokeWidth="2dp" />
+
+
+    <TextView
+        android:id="@+id/detail_plant_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center"
+        android:textColor="@color/dark_late_gray"
+        android:textSize="28sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/serious_1"
+            android:gravity="center"
+            android:text="Welcome"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
