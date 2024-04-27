@@ -5,13 +5,14 @@
 * Key Features:
 * User Authentication: 
 * - Plant Disease Detection App includes user authentication functionality powered by Firebase Authentication. Users can sign up for a new account, log in securely, and reset their passwords if needed.
-
 * Image-Based Disease Detection: 
 * - The core feature of Plant Disease Detection App is its ability to identify plant diseases from images captured by the user. TensorFlow Lite models trained on plant disease datasets are used for on-device inference, enabling fast and accurate detection without requiring an internet connection.
-* - Disease Database:
-  - The app includes a comprehensive database of plant diseases and their symptoms, along with recommended treatments and preventive measures. Users can access detailed information about each disease to better understand its impact and how to manage it.
-Image Upload and Analysis: Users can capture photos of diseased plants using their device's camera or upload images from their gallery. The app processes the images using TensorFlow Lite models to identify the type of disease present and provides relevant information and recommendations.
-Data Logging and Analytics: Plant Disease Detection App logs user interactions and disease detection results for analytics purposes. This data can be used to improve the accuracy of disease detection models over time and provide insights into prevalent diseases in different regions.
+* Disease Database:
+* - The app includes a comprehensive database of plant diseases and their symptoms, along with recommended treatments and preventive measures. Users can access detailed information about each disease to better understand its impact and how to manage it.
+* Image Upload and Analysis:
+* - Users can capture photos of diseased plants using their device's camera or upload images from their gallery. The app processes the images using TensorFlow Lite models to identify the type of disease present and provides relevant information and recommendations.
+* Data Logging and Analytics:
+* - Plant Disease Detection App logs user interactions and disease detection results for analytics purposes. This data can be used to improve the accuracy of disease detection models over time and provide insights into prevalent diseases in different regions.
 Community Support: Users can ask questions, seek advice, and contribute their knowledge to help others diagnose and manage plant diseases effectively.
 Technologies Used:
 
