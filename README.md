@@ -40,3 +40,13 @@
 * - Multi-language support:Extend the app to support multiple languages to reach users in different regions.
 * - Automated treatment recommendations: Integrate AI algorithms to provide personalized treatment recommendations based on disease detection results and environmental factors.
 * - Expansion of plant database: Continuously update and expand the app's disease database to cover a wider range of plant species and geographical regions.
+
+
+
+
+
+
+
+
+https://github.com/abdelrhmanshata/PlantDiseaseDetectionApp/assets/36518291/4ef8ea94-4494-422e-9512-ab566d91053d
+
